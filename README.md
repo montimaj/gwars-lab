@@ -1,10 +1,10 @@
-# WIRS Lab Webpage
+# GWARS Lab Webpage
 
-This repository contains the source code for the WIRS Lab website, hosted via GitHub Pages.
+This repository contains the source code for the GWARS Lab website, hosted via GitHub Pages.
 
 ## About
 
-This project is the official website for the WIRS Lab, showcasing our research, team, and publications.
+This project is the official website for the GWARS Lab, showcasing our research, team, and publications.
 
 ## Local Development
 
