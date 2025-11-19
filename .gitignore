@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist
+/build
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+.jspm_packages/
+
+# dotenv environment variable file
+.env
+
+# IDEs and editors
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/settings.json
