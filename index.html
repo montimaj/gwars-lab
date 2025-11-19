@@ -672,7 +672,37 @@
 
             <div class="space-y-24">
                 
-                <!-- Discussion 1: Nature Communications (2023) -->
+                <!-- Discussion 1: J. Hydrology: Regional Studies (2024) -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div class="order-last lg:order-first mt-10 lg:mt-0 relative group">
+                        <div class="absolute -inset-2 bg-gradient-to-r from-indigo-400 to-sky-300 rounded-2xl opacity-20 group-hover:opacity-40 transition blur-lg"></div>
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
+                            <!-- REPLACE SRC WITH YOUR IMAGE -->
+                            <img src="figs/map.png" alt="Mississippi Alluvial Plain Maps" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
+                             <div class="absolute bottom-0 left-0 right-0 bg-slate-900/80 backdrop-blur-sm text-white p-3 text-xs">
+                                <strong>Fig 2.</strong> Crop-specific groundwater extraction estimates across the MAP.
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 mb-4">
+                            Machine Learning
+                        </div>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4">Crop-Specific Groundwater Use in the Mississippi Alluvial Plain</h4>
+                        <p class="text-slate-600 mb-4 leading-relaxed">
+                            <strong>Paper:</strong> <span class="font-semibold">Majumdar, S.</span>, et al. (2024). <em>Journal of Hydrology: Regional Studies</em>.
+                        </p>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            The Mississippi Alluvial Plain (MAP) is one of the most productive agricultural regions in the world. This study addressed the challenge of data scarcity by integrating flowmeter datasets with remote sensing predictors (ET, precipitation, crop type). The resulting model allows us to disentangle water use by crop type—showing distinct withdrawal patterns (e.g., rice versus soybeans)—which is vital for targeted water conservation policies in the region.
+                        </p>
+                        <a href="https://doi.org/10.1016/j.ejrh.2024.101674" target="_blank" class="text-sky-600 font-semibold hover:text-sky-700 flex items-center gap-2">
+                            Read Full Paper <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <!-- Discussion 2: Nature Communications (2023) -->
                 <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                     <div>
                         <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-sky-100 text-sky-800 mb-4">
@@ -701,35 +731,6 @@
                     </div>
                 </div>
 
-                <!-- Discussion 2: J. Hydrology: Regional Studies (2024) -->
-                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
-                    <div class="order-last lg:order-first mt-10 lg:mt-0 relative group">
-                        <div class="absolute -inset-2 bg-gradient-to-r from-indigo-400 to-sky-300 rounded-2xl opacity-20 group-hover:opacity-40 transition blur-lg"></div>
-                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
-                            <!-- REPLACE SRC WITH YOUR IMAGE -->
-                            <img src="figs/map.png" alt="Mississippi Alluvial Plain Maps" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
-                             <div class="absolute bottom-0 left-0 right-0 bg-slate-900/80 backdrop-blur-sm text-white p-3 text-xs">
-                                <strong>Fig 2.</strong> Crop-specific groundwater extraction estimates across the MAP.
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800 mb-4">
-                            Machine Learning
-                        </div>
-                        <h4 class="text-2xl font-bold text-slate-900 mb-4">Crop-Specific Groundwater Use in the Mississippi Alluvial Plain</h4>
-                        <p class="text-slate-600 mb-4 leading-relaxed">
-                            <strong>Paper:</strong> <span class="font-semibold">Majumdar, S.</span>, et al. (2024). <em>Journal of Hydrology: Regional Studies</em>.
-                        </p>
-                        <p class="text-slate-600 mb-6 leading-relaxed">
-                            The Mississippi Alluvial Plain (MAP) is one of the most productive agricultural regions in the world. This study addressed the challenge of data scarcity by integrating flowmeter datasets with remote sensing predictors (ET, precipitation, crop type). The resulting model allows us to disentangle water use by crop type—showing distinct withdrawal patterns (e.g., rice versus soybeans)—which is vital for targeted water conservation policies in the region.
-                        </p>
-                        <a href="https://doi.org/10.1016/j.ejrh.2024.101674" target="_blank" class="text-sky-600 font-semibold hover:text-sky-700 flex items-center gap-2">
-                            Read Full Paper <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                        </a>
-                    </div>
-                </div>
-
                 <!-- Discussion 3: Ag Water Management (2025) -->
                 <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                     <div>
@@ -741,7 +742,7 @@
                             <strong>Paper:</strong> Hasan, M. F., Smith, R. G., <span class="font-semibold">Majumdar, S.</span>, et al. (2025). <em>Agricultural Water Management</em>.
                         </p>
                         <p class="text-slate-600 mb-6 leading-relaxed">
-                            Standard ML models often violate physical laws when extrapolating. In this work (Hasan et al., 2025), we introduced physical constraints into the learning process to estimate "effective precipitation"—the portion of rainfall actually available to crops. This approach significantly improved the accuracy of our irrigation monitoring systems across the Western United States.
+                            While remote sensing tools like [OpenET](https://etdata.org/) provide accurate evapotranspiration (ET) estimates, distinguishing the specific contributions of precipitation versus irrigation remains difficult due to runoff and deep percolation. We hypothesized that ET observed over rainfed vegetation could serve as a proxy for effective precipitation. We validated this approach using machine learning, demonstrating that we can now produce robust, scalable estimates of effective precipitation across the Western United States.
                         <a href="https://doi.org/10.1016/j.agwat.2025.109821" target="_blank" class="text-sky-600 font-semibold hover:text-sky-700 flex items-center gap-2">
                             Read Full Paper <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                         </a>
@@ -787,7 +788,35 @@
                     </div>
                 </div>
 
-                <!-- Discussion 5: Cambridge Prisms (2025) -->
+                <!-- Discussion 5: Asfaw et al. (2025) -->
+                <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                    <div>
+                        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-teal-100 text-teal-800 mb-4">
+                            Machine Learning for Groundwater Pumping
+                        </div>
+                        <h4 class="text-2xl font-bold text-slate-900 mb-4">Sustainable Groundwater Pathways for India</h4>
+                        <p class="text-slate-600 mb-4 leading-relaxed">
+                            <strong>Paper:</strong> Asfaw, D., Smith, R. G., <span class="font-semibold">Majumdar, S.</span>, et al. (2025). <em>Agricultural Water Management</em>.
+                        </p>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            While various methods exist to predict agricultural groundwater withdrawals, a machine learning framework integrating remote sensing and climate data has proven effective at bypassing traditional challenges like linking wells to specific fields. Validated across regions including Kansas and Arizona, this approach focuses on providing consistent gridded information for numerical hydrologic modeling. Addressing the global scarcity of metering data, the study determined that accurate pumping estimates are achievable at a 2-km scale using training data from only 10% of available wells. The results indicate that spatially aggregating data on a grid, driven by climate variables and evapotranspiration, substantially reduces the uncertainty common in point-scale predictions.
+                        <a href="https://doi.org/10.1016/j.agwat.2025.109691" target="_blank" class="text-sky-600 font-semibold hover:text-sky-700 flex items-center gap-2">
+                            Read Full Paper <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                    <div class="mt-10 lg:mt-0 relative group">
+                        <div class="absolute -inset-2 bg-gradient-to-r from-teal-400 to-cyan-300 rounded-2xl opacity-20 group-hover:opacity-40 transition blur-lg"></div>
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-100">
+                            <!-- REPLACE SRC WITH YOUR IMAGE -->
+                            <img src="figs/kansas.jpeg" alt="Kansas GW Pumping" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
+                            <div class="absolute bottom-0 left-0 right-0 bg-slate-900/80 backdrop-blur-sm text-white p-3 text-xs">
+                                <strong>Fig 5.</strong> Cover figure showing the workflow for predicting groundwater withdrawals in Kansas (Groundwater Management District 4) using ML.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Discussion 6: Cambridge Prisms (2025) -->
                 <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
                     <div>
                         <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-teal-100 text-teal-800 mb-4">
@@ -810,7 +839,7 @@
                             <!-- REPLACE SRC WITH YOUR IMAGE -->
                             <img src="figs/gwp_india.png" alt="India Groundwater Pathways" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
                             <div class="absolute bottom-0 left-0 right-0 bg-slate-900/80 backdrop-blur-sm text-white p-3 text-xs">
-                                <strong>Fig 5.</strong> Framework for integrating physical and social factors in groundwater management.
+                                <strong>Fig 6.</strong> Framework for integrating physical and social factors in groundwater management.
                             </div>
                         </div>
                     </div>
